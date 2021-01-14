@@ -1,0 +1,17 @@
+{
+  "name": "info.androidbcd.plugins.custom",
+  "version": "1.0.0",
+  "description": "My Payment",
+  "cordova": {
+    "id": "info.androidbcd.plugins.custom",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Anant",
+  "license": "ISC"
+}
