@@ -16,7 +16,7 @@ public class cespay extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if (action.equals("coolMethod")) {
             String message = args.getString(0);
-            message = message + 5;
+            message = message + 4;
             this.coolMethod(message, callbackContext);
             return true;
         }
