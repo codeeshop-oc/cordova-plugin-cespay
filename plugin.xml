@@ -2,7 +2,7 @@
 <plugin id="info.androidbcd.plugins.custom" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>cespay</name>
 	<js-module name="cespay" src="www/cespay.js">
-		<clobbers target="cordova.plugins.cespay" />
+		<clobbers target="cespay" />
 	</js-module>
 	<platform name="android">
 		<config-file parent="/*" target="res/xml/config.xml">
